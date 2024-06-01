@@ -23,7 +23,7 @@ function listNFTs(nftsArray = nfts) {
 }
 
 function getTotalSupply() {
-  console.log(`Total supply: ${nfts.length}`);
+  console.log(`Total supply: {nfts.length}`);
   /* getTotalSupply is defined as a function that performs a single task.
      Logging Total Supply, within the function, console.log is used to print a message that includes the length of the nfts array, which represents the total number of NFTs. */
 }
