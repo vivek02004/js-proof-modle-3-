@@ -16,7 +16,7 @@ function listNFTs(nftsArray = nfts) {
   }
 
   nftsArray.forEach(({ name, details, id }) => {
-    console.log(`Name: ${name}, Details: ${details}, ID: ${id}`);
+    console.log(`Name: {name}, Details: {details}, ID: {id}`);
   });
   /* Here we create a loop that will go through an array of NFTs and use exception handling.
      When nothing is found, it automatically prints 'No NFTs found.' If some are found, it will print the provided details. */
